@@ -1,5 +1,6 @@
 package com.gustavo.todolist.user;
 
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("users")
 public class UserController {
 
-    public void create(UserModel userModel) {
+    public void create(@RequestBody UserModel userModel) {
 
     }
     

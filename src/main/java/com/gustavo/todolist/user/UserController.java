@@ -6,5 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("users")
 public class UserController {
+
+    public void create(UserModel userModel) {
+
+    }
     
 }

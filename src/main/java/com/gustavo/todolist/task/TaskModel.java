@@ -1,0 +1,5 @@
+package com.gustavo.todolist.task;
+
+public class TaskModel {
+    
+}
